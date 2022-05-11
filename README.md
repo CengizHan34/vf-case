@@ -8,7 +8,7 @@ The posman collection is located under the vf-case directory.
 
 * Technologies Used
 
-    Spring Boot
-    Java-18
-    Junit - Mockito
+    * Spring Boot
+    * Java-18
+    * Junit - Mockito
 
