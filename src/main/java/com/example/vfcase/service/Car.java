@@ -2,6 +2,7 @@ package com.example.vfcase.service;
 
 import com.example.vfcase.enums.CarType;
 import com.example.vfcase.service.impl.Cabrio;
+import com.example.vfcase.service.impl.Hatchback;
 import com.example.vfcase.service.impl.Sedan;
 
 /**
@@ -13,6 +14,7 @@ public interface Car {
     static Car createCar(CarType type){
         if (CarType.SEDAN == type) return Sedan.create();
         else if (CarType.CABRIO == type) return Cabrio.create();
+        else if (CarType.HATCHBACK == type) return Hatchback.create();
         else return Sedan.create();
     }
 }

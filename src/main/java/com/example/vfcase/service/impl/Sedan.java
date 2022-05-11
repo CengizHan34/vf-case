@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 /**
  * @author created by cengizhan on 11.05.2022
  */
-@Service
 public class Sedan implements Car {
 
     private Sedan() {
